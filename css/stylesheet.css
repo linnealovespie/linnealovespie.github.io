@@ -70,5 +70,12 @@ nav {
     background-color: #b3c3d1;
 }
 
+ul.posts {
+    margin: 20px auto 40px;
+    font-size: 1.5em;
+}
+ul.posts li {
+    list-style: none;
+}
 
 /*# sourceMappingURL=stylesheet.css.map */
