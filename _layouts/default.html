@@ -1,33 +1,49 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <title>{{ page.title }}</title>
-    <!-- link to main stylesheet -->
-    <link rel="stylesheet" type="text/css" href="/css/main.css">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <link href="../css/materialize.min.css" rel="stylesheet" type="text/css" />
+    <link href="../css/stylesheet.css" rel="stylesheet" type="text/css" />
+    <link href="../css/reset.css" rel="stylesheet" type="text/css" />
+    <link href='https://fonts.googleapis.com/css?family=Oleo+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
-    <nav>
-        <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/about">About</a></li>
-            <li><a href="/cv">CV</a></li>
-            <li><a href="/blog">Blog</a></li>
-        </ul>
-    </nav>
-    <div class="container">
-
-        {{ content }}
-
+    <div class="navbar">
+        <!--NAVBAR-->
+        <nav>
+            <div class="nav-wrapper">
+                <ul class="middle row">
+                    <div class="col s3">
+                        <li a href="#about">About</li>
+                    </div>
+                    <div class="col s3">
+                        <li a href="#">Portfolio</li>
+                    </div>
+                    <div class="col s3">
+                        <li a href="#">Resume</li>
+                    </div>
+                    <div class="col s3">
+                        <li a href="#">Contact</li>
+                    </div>
+                    <div class="col s3 active">
+                        <li a href="#">Blog</li>
+                    </div>
+                </ul>
+            </div>
+        </nav>
     </div>
-    <!-- /.container -->
-    <footer>
-        <ul>
-            <li><a href="mailto:hankquinlanhub@gmail.com">email</a></li>
-            <li><a href="https://github.com/hankquinlan">github.com/hankquinlan</a></li>
-        </ul>
-    </footer>
-</body>
-
-</html>
+    
+    <div class="container">
+        {{ content }}
+    </div>
+    </body>
+    
+<script src="js/jquery-1.11.3.min.js"></script>
+<script type="text/javascript " src="js/materialize.min.js "></script>
+<script type="text/javascript " src="js/jquery.scrollTo.min.js "></script>
+<script type="text/javascript " src="js/baseAnimation.js "></script>
