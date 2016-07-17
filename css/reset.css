@@ -20,4 +20,14 @@ html {
 .parallax-container {
   height: 600px; }
 
+#icon {
+  font-family: Material-Design-Icons;
+  speak: none;
+  font-style: normal;
+  font-weight: 400;
+  font-variant: normal;
+  text-transform: none;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased; }
+
 /*# sourceMappingURL=reset.css.map */
