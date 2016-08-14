@@ -1,6 +1,5 @@
 $(document).ready(function () {
     $('.parallax').parallax();
-    $(".button-collapse").sideNav();
 });
 
 //sets the pages to the height of the scree
