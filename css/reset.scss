@@ -1,8 +1,11 @@
-$darkBlue:#51536b;
+$baseb:#293982;
+$baseg:#282828;
+$accentb:#B7D4CF;
+$accento:#df7004;
 h1,
 h2 {
     font-family: 'Oleo Script', cursive;
-    color: $darkBlue;
+    color: $baseg;
 }
 h2 {
     font-size: 2.5em;
@@ -10,7 +13,8 @@ h2 {
 html {
     font-family: 'Segoe UI';
     font-size: 1.1rem;
-    color: $darkBlue;
+    color: $baseb;
+    background-image:url("../img/geometry2.png");
     h5 {
         font-size: 1.5em;
         font-style: italic;
@@ -22,4 +26,8 @@ html {
 }
 .parallax-container {
     height: 600px;
+}
+
+nav{
+    background-color:$baseb;
 }
