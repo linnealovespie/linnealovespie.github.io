@@ -31,25 +31,6 @@ nav {
         z-index: -1;
     }
 }
-#scroll-icon {
-    width: 50px;
-    display: block;
-    margin: auto auto 10% auto;
-}
-#blue-container {
-    background-color: #b3c3d1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-#white-container {
-    padding: 5% 2%;
-}
-#androm-container {
-    background-image: url(../img/M31_hallas8001.jpg);
-    background-size: cover;
-    padding: 0;
-}
 .button {
     background-color: transparent;
     color: white;
@@ -87,8 +68,8 @@ nav {
     box-shadow: -2px 2px 14px 1px rgba(145, 145, 145, 1);*/
     padding: 0 2% 2% 2%;
 }
-.page2-container {
-    padding: 10px $pageMargin;
-    background-image: url("../img/M31_hallas800.png");
-    background-size: cover;
+.page-container {
+    padding: 5% $pageMargin;
+    //background-image: url("../img/M31_hallas800.png");
+    //background-size: cover;
 }
