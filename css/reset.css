@@ -3,9 +3,6 @@ h2 {
   font-family: 'Oleo Script', cursive;
   color: #282828; }
 
-h2 {
-  font-size: 2.5em; }
-
 html {
   font-family: 'Segoe UI';
   font-size: 1.1rem;
@@ -22,5 +19,10 @@ html {
 
 nav {
   background-color: #293982; }
+
+.material-tooltip, .backdrop {
+  background-color: #B7D4CF;
+  font-size: 0.8rem;
+  color: #282828; }
 
 /*# sourceMappingURL=reset.css.map */
