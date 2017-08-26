@@ -9,14 +9,14 @@ nav {
 .middle {
   background-image: url(../img/landing.jpg);
   justify-content: center;
-  /*align-content: center;
-  margin-bottom: 10%;
-  z-index: 999;
-  li {
-      margin: auto;
-      text-align: center;
-      width: 100%;
-  }*/ }
+  	/*align-content: center;
+      margin-bottom: 10%;
+      z-index: 999;
+      li {
+          margin: auto;
+          text-align: center;
+          width: 100%;
+      }*/ }
 
 .call-container {
   text-align: center;
@@ -63,6 +63,21 @@ nav {
   text-transform: none;
   margin-top: 0px; }
 
+.skill :first-child {
+  display: inline-block;
+  margin-left: 0; }
+.skill :nth-child(2) {
+  display: inline-block;
+  margin-right: 0;
+  float: right; }
+
+.bar-bg {
+  background-color: rgba(41, 57, 130, 0.15);
+  margin-bottom: 3%; }
+
+.bar-progress {
+  background-color: #293982; }
+
 /*----------Timeline Styles------*/
 *,
 *::before,
@@ -75,17 +90,17 @@ nav {
 
 .timeline {
   color: #293982;
-  /*h1,
-ul li .content h2{
-  text-shadow: 1px 1px 1px rgba(56, 56, 56, 0.5);
-}
-
-h1{
-  //background: $title-background;
-  padding: 70px 0;
-  font-size: 2.5em;
-  text-align: center;
-}*/ }
+  	/*h1,
+    ul li .content h2{
+      text-shadow: 1px 1px 1px rgba(56, 56, 56, 0.5);
+    }
+    
+    h1{
+      //background: $title-background;
+      padding: 70px 0;
+      font-size: 2.5em;
+      text-align: center;
+    }*/ }
   .timeline ul {
     padding: 50px 0; }
     .timeline ul li {
@@ -210,9 +225,9 @@ h1{
 .about-container {
   margin-top: 5%;
   width: 100%;
-  /*-webkit-box-shadow: -2px 2px 14px 1px rgba(145, 145, 145, 1);
-  -moz-box-shadow: -2px 2px 14px 1px rgba(145, 145, 145, 1);
-  box-shadow: -2px 2px 14px 1px rgba(145, 145, 145, 1);*/
+  	/*-webkit-box-shadow: -2px 2px 14px 1px rgba(145, 145, 145, 1);
+      -moz-box-shadow: -2px 2px 14px 1px rgba(145, 145, 145, 1);
+      box-shadow: -2px 2px 14px 1px rgba(145, 145, 145, 1);*/
   padding: 0 2% 2% 2%; }
 
 .page-container {
