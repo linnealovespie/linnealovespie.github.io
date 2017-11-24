@@ -26,8 +26,7 @@ var containerHeight = $(window).height()
 $(".page2-container").css('height', height);
 
 /*Filtering script*/
-console.log('ran');
-
+/*
 document.addEventListener('click', function (e) {
     var button = e.target;
 
@@ -42,10 +41,10 @@ document.addEventListener('click', function (e) {
         resetFilter(filter);
         filterTag(filter, tag);
     }
-});
+})*/
 
 // Filter tag
-function filterTag(filter, tag) {
+/*function filterTag(filter, tag) {
     var items = document.querySelectorAll('.' + filter + ' > li');
     console.log(items)
 
@@ -68,4 +67,6 @@ function resetFilter(filter) {
     for (var i = 0; i < items.length; i++) {
         items[i].setAttribute('data-toggle', 'on');
     }
-}
+}*/
+
+var mixer = mixitup('.portfolio-container');
