@@ -1,18 +1,22 @@
-h1,
-h2 {
-  font-family: 'Oleo Script', cursive;
-  color: #282828; }
-
 html {
-  font-family: 'Segoe UI';
+  font-family: 'Rasa';
   font-size: 1.1rem;
   color: #293982;
-  background-image: url("../img/geometry2.png"); }
+  background-image: url("../img/geometry2.png");
+  line-height: 1;
+  text-rendering: optimizeLegibility; }
   html h5 {
     font-size: 1.5em;
+    line-height: 0.8em;
     font-weight: 600; }
   html h6 {
-    font-weight: 500; }
+    font-weight: 500;
+    font-size: 1.2em; }
+  html h1,
+  html h2 {
+    font-family: 'Oleo Script', cursive;
+    color: #282828;
+    margin: 0; }
 
 .parallax-container {
   height: 600px; }
@@ -20,7 +24,8 @@ html {
 nav {
   background-color: #293982; }
 
-.material-tooltip, .backdrop {
+.material-tooltip,
+.backdrop {
   background-color: #B7D4CF;
   font-size: 0.8rem;
   color: #282828; }
