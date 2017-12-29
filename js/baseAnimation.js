@@ -1,17 +1,27 @@
 $(document).ready(function () {
     $('.parallax').parallax();
+    $('.modal').modal();
     $(".button-collapse").sideNav();
     $('.tooltipped').tooltip({
         html: true
     });
+    $('.portfolio-wrapper').height($('.portfolio-wrapper').width());
+    var height = $(window).height() - 64;
+    $("#landing-parallax").css('height', height);
+    $("#section-parallax").css('height', height / 2);
+    $("#section-parallax1").css('height', height / 2);
+    $("#section-parallax2").css('height', height / 2);
+    $(window).resize(function () {
+        //var height = $(window).height() - 64;
+        h = $('.portfolio-wrapper').width();
+        console.log(h);
+        $('.portfolio-wrapper').height(h);
+    }).resize();
 });
+
 
 //sets the pages to the height of the scree
 var height = $(window).height() - 64;
-$("#landing-parallax").css('height', height);
-$("#section-parallax").css('height', height / 2);
-$("#section-parallax1").css('height', height / 2);
-$("#section-parallax2").css('height', height / 2);
 
 
 //$(".page-container").css('min-height', height);

@@ -35,19 +35,19 @@ footer {
   font-size: .8em; }
 
 body {
-  	/*min-height:100vh;
-    margin:0;
-    font-family: 'Droid Sans', sans-serif;
-    &:before {
-      content: '';
-      position: fixed;
-      top:0px;
-      left:50%;
-      bottom:0px;
-      transform:translateX(-50%);
-      width:4px;
-      //background-color:#fff;
-    }*/ }
+  /*min-height:100vh;
+margin:0;
+font-family: 'Droid Sans', sans-serif;
+&:before {
+  content: '';
+  position: fixed;
+  top:0px;
+  left:50%;
+  bottom:0px;
+  transform:translateX(-50%);
+  width:4px;
+  //background-color:#fff;
+}*/ }
   body .entries {
     width: calc(100% - 80px);
     max-width: 800px;

@@ -30,4 +30,21 @@ nav {
   font-size: 0.8rem;
   color: #282828; }
 
+.mix {
+  display: inline-block;
+  padding: 2px;
+  margin-top: 1%;
+  width: 23%; }
+
+.modal {
+  max-height: 50%; }
+
+.btn,
+.btn:hover,
+button,
+button:focus {
+  background-color: #B7D4CF;
+  padding: 0 1rem;
+  margin: 0 0.1rem; }
+
 /*# sourceMappingURL=reset.css.map */
