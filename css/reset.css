@@ -38,6 +38,19 @@ nav {
 
 .modal {
   max-height: 50%; }
+  .modal p,
+  .modal ul,
+  .modal li {
+    text-align: left; }
+  .modal li,
+  .modal ul {
+    list-style: circle; }
+  .modal li {
+    margin-left: 5%; }
+  .modal h5 {
+    color: #df7004; }
+  .modal a {
+    color: #293982; }
 
 .btn,
 .btn:hover,

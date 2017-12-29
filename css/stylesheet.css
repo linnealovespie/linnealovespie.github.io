@@ -270,17 +270,17 @@ html {
   display: inline-block; }
   .portfolio-wrapper img {
     width: 100%;
-    background-color: #B7D4CF;
+    background-color: #293982;
     opacity: 1;
     transition: opacity 0.3s ease;
-    border: 2px solid #B7D4CF;
+    border: 2px solid #293982;
     border-radius: 2px; }
   .portfolio-wrapper:hover {
     opacity: 1;
-    background-color: rgba(183, 212, 207, 0.2); }
+    background-color: rgba(41, 57, 130, 0.05); }
     .portfolio-wrapper:hover img {
       opacity: 0.2;
-      color: rgba(183, 212, 207, 0.2); }
+      color: rgba(41, 57, 130, 0.05); }
     .portfolio-wrapper:hover .portfolio-desc h6 {
       opacity: 1; }
   .portfolio-wrapper .portfolio-desc {

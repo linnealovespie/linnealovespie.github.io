@@ -5,6 +5,10 @@
 
 //******VARIABLES FOR REUSE*******
 $pageMargin: 10%;
+$baseb:#293982; //rgb(41,57,130)
+$baseg:#282828;
+$accentb:#B7D4CF;
+$accento:#df7004;
 //******General Index.html styles **********
 nav {
     background-color: transparent;
@@ -349,18 +353,18 @@ html {
         //width: 100%;
         //height: auto;
         width: 100%;
-        background-color: #B7D4CF;
+        background-color: $baseb;
         opacity: 1;
         transition: opacity 0.3s ease;
-        border: 2px solid #B7D4CF;
+        border: 2px solid $baseb;
         border-radius: 2px;
     }
     &:hover {
         opacity: 1;
-        background-color: rgba(183, 212, 207, 0.2);
+        background-color: rgba(41, 57, 130, 0.05);
         img {
             opacity: 0.2;
-            color: rgba(183, 212, 207, 0.2);
+            color: rgba(41, 57, 130, 0.05);
         }
         .portfolio-desc h6 {
             opacity: 1;

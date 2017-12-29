@@ -51,6 +51,24 @@ nav {
 
 .modal {
     max-height: 50%;
+    p,
+    ul,
+    li {
+        text-align: left;
+    }
+    li,
+    ul {
+        list-style: circle;
+    }
+    li {
+        margin-left: 5%;
+    }
+    h5 {
+        color: #df7004;
+    }
+    a {
+        color: $baseb;
+    }
 }
 
 .btn,
