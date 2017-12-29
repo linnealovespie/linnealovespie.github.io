@@ -2,35 +2,80 @@ $baseb:#293982;
 $baseg:#282828;
 $accentb:#B7D4CF;
 $accento:#df7004;
-h1,
-h2 {
-    font-family: 'Oleo Script', cursive;
-    color: $baseg;
-}
 html {
-    font-family: 'Segoe UI';
+    font-family: 'Rasa';
     font-size: 1.1rem;
     color: $baseb;
-    background-image:url("../img/geometry2.png");
+    background-image: url("../img/geometry2.png");
+    line-height: 1;
+    text-rendering: optimizeLegibility;
     h5 {
         font-size: 1.5em;
         //font-style: italic;
+        line-height: 0.8em;
         font-weight: 600;
     }
     h6 {
         font-weight: 500;
+        font-size: 1.2em;
+    }
+    h1,
+    h2 {
+        font-family: 'Oleo Script', cursive;
+        color: $baseg;
+        margin: 0;
     }
 }
+
 .parallax-container {
     height: 600px;
 }
 
-nav{
-    background-color:$baseb;
+nav {
+    background-color: $baseb;
 }
-.material-tooltip, .backdrop{
-    background-color:$accentb;
-    font-size:0.8rem;
-    color:$baseg;
-    
+
+.material-tooltip,
+.backdrop {
+    background-color: $accentb;
+    font-size: 0.8rem;
+    color: $baseg;
+}
+
+.mix {
+    display: inline-block;
+    padding: 2px;
+    margin-top: 1%;
+    width: 23%;
+}
+
+.modal {
+    max-height: 50%;
+    p,
+    ul,
+    li {
+        text-align: left;
+    }
+    li,
+    ul {
+        list-style: circle;
+    }
+    li {
+        margin-left: 5%;
+    }
+    h5 {
+        color: #df7004;
+    }
+    a {
+        color: $baseb;
+    }
+}
+
+.btn,
+.btn:hover,
+button,
+button:focus {
+    background-color: #B7D4CF;
+    padding: 0 1rem;
+    margin: 0 0.1rem;
 }
