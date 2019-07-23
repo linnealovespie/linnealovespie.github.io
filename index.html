@@ -15,13 +15,15 @@
 
 <body>
     <!--LANDING PAGE!-->
-    <div class="parallax-container" id="landing-parallax">
-        <div class="parallax"><img src="img/mandel.jpg"></div>
+    <!---<div class="parallax-container" id="landing-parallax">-->
+        <!----<div class="parallax"><img src="img/mandel.jpg"></div>!-->
+        <a id="about" class="smooth"></a>
+
         <div class="navbar-fixed">
             <!--NAVBAR-->
             <nav>
                 <div class="nav-wrapper">
-                    <a href="#" class="brand-logo" style="margin-left:1%;">C:\</a>
+                    <a href="#" class="brand-logo" style="margin-left:1%;font-family:'Oleo Script', cursive">Beauty and the Geek</a>
                     <a href="#" data-activates="mobile-demo" class="button-collapse" style="font-size:2.1rem;">cd</a>
                     <ul class="right hide-on-med-and-down">
                         <li><a href="#about">About</a></li>
@@ -41,36 +43,48 @@
                     </ul>
                 </div>3
             </nav>
-        </div>
-        <div class="call-container">
+        <!---</div>-->
+        <!---<div class="call-container">
             <div class="row" id="closer-row">
                 <h1>Beauty and The Geek</h1>
                 <i><h5 style="color:#282828;">Linnea May's Personal Website</h5></i>
             </div>
-        </div>
+        </div>!-->
     </div>
     <!--<a><img class="responsive-img" id="scroll-icon" src="img/arrows.png"></a>!-->
-    <a id="about" class="smooth"></a>
     <div class="page-container">
-        <div class="row">
+        <div class="row raised">
             <h1>Hi, I'm Linnea</h1>
-            <p>I’m an Austinite studying Engineering Physics at <b>Cornell University</b> in Ithaca, New York. I enjoy <b>solving problems</b> that I know can have an impact on the “real world”- the bigger the scope of the problem and the less defined it is, the better. This drive is supported by my ability to <b>spot patterns</b> across topics, and then drill down until I find the root cause of the relation. </p><br>
-            <h6>I’m a fan of almost every STEM field, but my main interests are: </h6>
-            <ul>
-                <li><b>•	Big data, machine learning, and analytics.</b> We’re entering an age where we’ll know more and more about the members of society. I want to help make it a prosperous one. </li>
-                <li><b>•	Advanced computing methods.</b> To reach its full potential, the field of data science will need to be supported by increasing computing capabilities.</li>
-            </ul><br>
-            <h6>The problems I want to solve with these tools include: </h6>
-            <ul>
-                <li><b>•	Promoting social equality. </b>Everyone should access to what they need to be comfortable. Period.</li>
-                <li><b>•	Guaranteeing universal tech literacy. </b>For everyone to have this chance at comfort, they need to know how to navigate the increasingly technical world. </li>
-            </ul>
+            <div class='col m2' style="display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden">
+                <img src="img/me1.jpg" style="flex-shrink: 0;
+                width:100%;height:auto;">
+            </div>
+            <div class="col m10">
+                <p>
+                    I’m an Austinite studying Computer Science at Cornell University, optimistically minoring in Physics.
+                    <br><br>
+                    I love the breadth of skills that go into data science as well as the variety of its applications, 
+                    which is why I serve as both the Insights Subteam Lead and Recruitment Chair for Cornell Data Science. 
+                    <br><br>
+                    My main interests are interpretable machine learning and data visualization, embedded and operating systems, 
+                    and if I can ever learn enough physics, quantum computing. 
+                    All these interests can only be of use if everyone can benefit from them, which is why I am also passionate 
+                    about promoting tech literacy and using technology for social impact. 
+                    <br><br>
+                    Outside of school I’ve enjoyed learning to cook while working at Microsoft, I try my best to swim 
+                    on a weekly basis, and I inevitably spend a lot of time watching YouTube videos. 
+                </p>
+
+            </div>
         </div>
 
     </div>
     <a id="experience" class="smooth"></a>
     <div class="parallax-container" id="section-parallax">
-        <div class="parallax"><img src="img/eagleNebula.jpg"></div>
+        <div class="parallax"><img src="img/experience.jpg"></div>
         <div class="section-container" style="text-align:center;">
             <div class="row" id="closer-row">
                 <h1>Experience</h1>
@@ -82,34 +96,33 @@
             <ul>
                 <li>
                     <div class="content">
-                        <h5 id="timeline-title"><b>Tech Chicas: </b>Project Leader</h5>
-                        <h6>January 2016-July 2017</h6>
+                        <h5 id="timeline-title"><b>Cornell Data Science: </b>Insights Lead, Recruitment Chair</h5>
+                        <h6>December 2017-Present</h6>
                         <ul id="experience-list">
-                            <li>Partnered with the Austin Housing Authority to deliver a total of 15 workshops for over 40 girls aged 8-15 living in public housing.</li>
-                            <li>Developed budget and project proposal in order to raise over $6000 in grants.</li>
-                            <li>Wrote 100 hours of curriculum for workshops on 3D modeling, web and app development, VR, GIS, video game design, and robotics.</li>
+                            <li>Spring 2019: Developed CNNS and Siamese RNNs to classify fake news, with an improvement of 10% over baseline.</li>
+                            <li>Fall 2018: Researched and developed a new method to visualize how a CNN is trained.</li>
+                            <li>Spring 2017: Analyzed the structure of knowledge on Wikipedia using Markov Models and NLP methods.</li>
+                            <li>As a founding member of the sub team, personally recruited, trained, and lead 15 members.</li>
                         </ul>
                     </div>
                 </li>
                 <li>
                     <div class="content">
-                        <h5 id="timeline-title"><b>FTC Robotics: </b>Project Manager</h5>
-                        <h6>June 2015-2017</h6>
+                        <h5 id="timeline-title"><b>Microsoft: </b>Intern</h5>
+                        <h6>May 2019-August 2019</h6>
                         <ul id="experience-list">
-                            <li>Lead a team of 11 peers through Agile Development and Scrum to support our robot's modular design. </li>
-                            <li>Personally implemented data-driven decision making to improve the design of our robot and subsequently win the “Design Award” at the World Championships 3 years in a row. </li>
-                            <li>Build and maintain a fully custom team website and blog that averages 300 monthly individual visits.</li>
+                            <li>Designing and implementing features to enhance the end user experience in Windows Virtual Desktop. </li>
                         </ul>
                     </div>
                 </li>
                 <li>
                     <div class="content">
-                        <h5 id="timeline-title"><b>Oceaneering: </b>Intern</h5>
-                        <h6>February 2016</h6>
+                        <h5 id="timeline-title"><b>IBM Research: </b>Intern</h5>
+                        <h6>May 2018- August 2018</h6>
                         <ul id="experience-list">
-                            <li>Designed an alternative attachment arm for subsea cable distribution modules used in oil rigs. </li>
-                            <li>Used quantitative analysis to determine the optimal design based on given constraints and within our limited available time. </li>
-                            <li>Mentored by analysts on Finite Element Analysis as a part of design process.</li>
+                            <li>Developed a full-stack web application to visualize geospatial data using Flask and REST APIs. 
+                                Work is now being used in research on visualizing big data. </li>
+                            <li>Built models for anomaly detection in 100GB of time series data using Spark and scalable ML. </li>
                         </ul>
                     </div>
                 </li>
@@ -118,7 +131,7 @@
     </div>
     <a id="education" class="smooth"></a>
     <div class="parallax-container" id="section-parallax1">
-        <div class="parallax"><img src="img/CMS_Higgs-event.png"></div>
+        <div class="parallax"><img src="img/education2.jpg"></div>
         <div class="section-container" style="text-align:center;">
             <div class="row" id="closer-row">
                 <h1>Education</h1>
@@ -126,88 +139,27 @@
         </div>
     </div>
     <div class="page-container">
-        <div class="row valign-wrapper">
-            <div class="col m6 s12" style="text-align:center">
-                <img src="img/cornell.png" style="width:20%;">
-                <h6>Cornell University, Class of 2021</h6>
-                <p><b>Major: </b>Engineering Physics/Computer Science</p>
-                <b>Notable Courses:</b>
-                <ul style="text-align:center">
-                    <li>Data Science Training Program</li>
-                    <li>OO Programming and Data Structures</li>
-                    <li>Discrete Math</li>
-                </ul>
-            </div>
-            <div class="col m6 s12" style="text-align:center">
-                <img src="img/vipers-logo-v-250px.png" style="width:20%;">
-                <h6>Vandegrift High School, Class of 2017</h6>
-                <p><b>Rank 6</b> out of 560</p>
-                <b>Notable Courses:</b>
-                <ul style="text-align:center">
-                    <li>AP Calculus-Based Physics</li>
-                    <li>PLTW Principles of Engineering</li>
-                </ul>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col m4 s12">
-                <h5>Programming Languages
-                    <!--<a class="tooltipped" data-position="right" data-delay="50" data-tooltip="Each dot represetnts a year of expereince with the skill/tool. Rounded to one significant fiugure.">*</a>!--></h5>
-                <div class="row">
-                    <div class="skill">
-                        <p>Java- 3 years</p>
-                    </div>
-                    <div class="bar-bg">
-                        <div class="bar-progress" style="height:10px;width:100%;"></div>
-                    </div>
-                    <p>HTML/CSS/Javascript- 3</p>
-                    <div class="bar-bg">
-                        <div class="bar-progress" style="height:10px;width:100%;"></div>
-                    </div>
-                    <p>Python- 2</p>
-                    <div class="bar-bg">
-                        <div class="bar-progress" style="height:10px;width:67%;"></div>
-                    </div>
-                    <p>D3.js- 1</p>
-                    <div class="bar-bg">
-                        <div class="bar-progress" style="height:10px;width:33%;"></div>
-                    </div>
+        <div class="row raised">
+                <div class="col m6">
+                        <h6>Cornell University, Class of 2021</h6>
+                        <p>Major in Computer Science, Minor in Physics</p>
+                        <b>Notable Courses:</b>
+                        <ul class="education-list">
+                            <li><b>Core: </b>Algorithms, Data Structures, Embedded Systems, Function Programming</li>
+                            <li><b>Interests: </b> Machine Learning, Data-Driven Web Apps, Manifolds</li>
+                            <li><b>Phsyics: </b>Honors Mechanics, E&M, Waves</li>
+                            <li><b>Fun: </b>Intermediate Ski, Large Boat Sailing</li>
+                        </ul>
                 </div>
-            </div>
-            <div class="col m4 s12">
-                <h5>Other Software</h5>
-                <div class="row">
-                    <p>Autodesk Inventor- 3</p>
-                    <div class="bar-bg">
-                        <div class="bar-progress" style="height:10px;width:100%;"></div>
-                    </div>
-                    <p>Tableau- 1</p>
-                    <div class="bar-bg">
-                        <div class="bar-progress" style="height:10px;width:33%;"></div>
-                    </div>
-                    <p>Spark and Hadoop- 1</p>
-                    <div class="bar-bg">
-                        <div class="bar-progress" style="height:10px;width:33%;"></div>
-                    </div>
+                <div class='col m6'>
+                    <h6>Skills and Interests</h6>
+                    <ul class='education-list'>
+                        <li><b>Programming Languages:</b> Python, Java, OCaml, D3.js, C, C++</li>
+                        <li><b>Technical Skills:</b> Bash, Hadoop/Spark, Git, REST APIs</li>
+                        <li><b>Key Skills:agile development, leadership, analytics</b></li>
+                    </ul>
                 </div>
-            </div>
-            <div class="col m4 s12">
-                <h5>Project-Oriented Skills</h5>
-                <div class="row">
-                    <p>Agile Development/Scrum- 2</p>
-                    <div class="bar-bg">
-                        <div class="bar-progress" style="height:10px;width:100%;"></div>
-                    </div>
-                    <p>Grant Proposal Writing- 2</p>
-                    <div class="bar-bg">
-                        <div class="bar-progress" style="height:10px;width:100%;"></div>
-                    </div>
-                    <p>Design Thinking- 1</p>
-                    <div class="bar-bg">
-                        <div class="bar-progress" style="height:10px;width:50%;"></div>
-                    </div>
-                </div>
-            </div>
+                
         </div>
     </div>
     <a id="projects" class="smooth"></a>

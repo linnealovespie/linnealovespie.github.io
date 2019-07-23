@@ -30,7 +30,7 @@ var height = $(window).height() - 64;
 //centers the "call to action" on the first page
 var callContainer = (height - $(".call-container").height() - 64) / 2;
 $(".call-container").css('margin-top', callContainer);
-$(".section-container").css('margin-top', callContainer / 1.5);
+$(".section-container").css('margin-top', callContainer / 2.5);
 
 var containerHeight = $(window).height()
 $(".page2-container").css('height', height);
